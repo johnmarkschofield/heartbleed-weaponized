@@ -18,6 +18,11 @@ Currently we're using two tools:
 * [Takeshixx's hb-test.py](https://gist.github.com/takeshixx/10107280) 
 * [heartbleeder](https://github.com/titanous/heartbleeder) by [Jonathan Rudenberg](https://github.com/titanous)
 
+## Pre-Requisites
+
+You will need to have [Vagrant](http://www.vagrantup.com/) and [VirtualBox](https://www.virtualbox.org/) installed on your computer. Both are free, and there are versions for Mac OS X, Windows, and Linux.
+
+
 ## Vagrant Setup
 
 
