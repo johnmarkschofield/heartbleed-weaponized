@@ -41,6 +41,7 @@ vagrant up
 ```
 vagrant ssh
 ```
+then
 
 ```
 heartbleeder WEBSITE:PORT
