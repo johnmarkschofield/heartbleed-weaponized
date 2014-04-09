@@ -27,7 +27,13 @@ If you have the latest version of VirtualBox installed, and you have vagrant-vbg
 vagrant up ; vagrant provision ; vagrant reload --provision
 ```
 
-If you're not on the latest version of VirtualBox, you'll only need to do "vagrant up". [The above works around a Virtualbox bug](http://schof.org/2014/03/31/working-around-virtualbox-bug-12879/).)
+If you're not on the latest version of VirtualBox, you'll only need to do:
+
+```
+vagrant up
+```
+
+[The above works around a Virtualbox bug](http://schof.org/2014/03/31/working-around-virtualbox-bug-12879/).)
 
 
 ## Usage
@@ -38,7 +44,9 @@ vagrant ssh
 
 ```
 heartbleeder WEBSITE:PORT
-#or
+```
+or
+```
 heartbleeder WEBSITE
 ```
 
@@ -50,7 +58,7 @@ hb-test.py WEBSITE:PORT
 or
 
 ```
-hp-test.py WEBSITE
+hb-test.py WEBSITE
 ```
 
 
